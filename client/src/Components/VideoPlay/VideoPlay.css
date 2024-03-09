@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.like-line {
+  width: 0.3px;
+}
+.description-text-tag {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.video-suggestion-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

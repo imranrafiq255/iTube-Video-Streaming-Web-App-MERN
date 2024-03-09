@@ -1,0 +1,8 @@
+.custom-height {
+  height: 800px;
+}
+@media (max-width: 400px) {
+  .custom-height {
+    height: 500px !important;
+  }
+}

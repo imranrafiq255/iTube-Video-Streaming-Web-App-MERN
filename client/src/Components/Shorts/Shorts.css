@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.scroll-bar-css::-webkit-scrollbar {
+  display: none;
+}
+.scroll-bar-css {
+  /* height: 100%; */
+  overflow: scroll;
+}
+.shorts-css {
+  border-radius: 20px;
+}
+.shorts-container::-webkit-scrollbar {
+  display: none;
+}
+
+.middle-like img {
+  display: none;
+}
+
+.like-count {
+  margin-top: -7px;
+}
+.line-clamp-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
