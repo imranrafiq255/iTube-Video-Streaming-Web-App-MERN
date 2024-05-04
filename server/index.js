@@ -11,7 +11,9 @@ cloudinary.v2.config({
   api_key: process.env.API_KEY,
   api_secret: process.env.API_SECRET,
 });
-
+app.get("/", (req, res) => {
+  res.send("deployed");
+});
 app.listen(process.env.SERVER_PORT, () => {
   console.log(`The server is running on: ${process.env.SERVER_PORT}`);
 });
