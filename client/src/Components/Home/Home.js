@@ -39,9 +39,7 @@ const Home = () => {
   };
   const playVideo = async (video) => {
     try {
-      await axios.get(
-        `https://i-tube-video-streaming-web-app-mern.vercel.app/api/v1/video/videoviews/${video._id}`
-      );
+      await axios.get(`/api/v1/video/videoviews/${video._id}`);
     } catch (error) {
       console.log(error.response.data.message);
     } finally {
