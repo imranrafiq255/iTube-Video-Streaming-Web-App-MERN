@@ -14,6 +14,7 @@ cloudinary.v2.config({
 app.get("/", (req, res) => {
   res.send("deployed");
 });
+
 app.listen(process.env.SERVER_PORT, () => {
   console.log(`The server is running on: ${process.env.SERVER_PORT}`);
 });
